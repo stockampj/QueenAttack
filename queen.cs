@@ -15,7 +15,7 @@ class Queen
         {
         queenCanAttack = true;
         }
-        else if (Math.Abs(((queenX - enemyX)/(queenY - enemyY))) == 1)
+        else if (Math.Abs(((queenY - enemyY)/(queenX - enemyX))) == 1)
         {
         queenCanAttack = true;
         }
